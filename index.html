@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
             </div>
           </nav>
     </header>
-
+ <!-- Fim da brincadeirinha -->
     <section class="text-center container-fluid">
         <h1>Este é um projetinho para responder uma questão:</h1>
         <p>o site é feito para ser mais fraquinho mesmo e bem simples</p>
@@ -49,6 +49,29 @@
         <button type="submit" onclick="chamarPergunta()">Clique Aqui</button>
         <button type="submit" onclick="limparP()">Limpar</button>
     </section>
+    <!-- Fim da brincadeirinha -->
+
+    <section class="container-fluid text-center bg-dark-subtle"> <!--calculadora-->
+      <h1>Calculadora basica</h1>
+      <p>inicios dos estudos:</p>
+
+      <form>
+        <fieldset>
+          <legend>Calculadora basica</legend>
+
+          <input type="number" placeholder="Digite o primeiro numero" id="num1">
+
+          <input type="number" placeholder="Digite o segundo numero" id="num2">
+
+          <button id="mais" onclick="somar()">+</button>
+          <button id="menos" onclick="subtrair()">-</button>
+          <button id="vezes" onclick="multiplicar()">*</button>
+          <button id="divisao" onclick="dividir()">/</button>
+          <p>O resultado é: <span id="resultado"></span></p>
+
+        </fieldset>
+      </form>
+    </section> <!-- fim da calculadora-->
 
     <footer>
         <p>Direitos reservados pelo baianinho de araguari! vulgo Gabriel de Carvalho</p>
