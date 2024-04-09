@@ -39,7 +39,9 @@ function dividir(){
     const numero1 = Number.parseFloat(document.getElementById('num1').value)
     const numero2 = Number.parseFloat(document.getElementById('num2').value)
     const dividir = numero1 / numero2
+    
     mostrar = document.getElementById('resultado').innerHTML = dividir
+    
 }
 
 
